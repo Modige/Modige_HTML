@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('http://fonts.googleapis.com/css?family=Syncopate|Tinos');
+@import url('font-awesome.min.css');
+@import 'libs/skel';
+
+
+/* Basic */
+
+	body, input, textarea, select {
+		font-family: 'Tinos', serif;
+		font-weight: 400;
+		background: #ffffff;
+		color: #000000;
+	}
+
+	form {
+		input, select, textarea {
+			-webkit-appearance: none;
+		}
+	}
+
+	br.clear {
+		clear: both;
+	}
+
+	h2 {
+		font-weight: 600;
+	}
+
+	p, ul, ol, dl, table {
+		margin-bottom: 1em;
+	}
+
+	p {
+		line-height: 1.75em;
+	}
+
+
+
+	strong {
+		font-weight: 700;
+		color: #4b0082;
+	}
+
+	section, article {
+		margin-bottom: 3em;
+
+		> :last-child, &:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	footer {
+		padding-top: 1em;
+	}
+
+	.image {
+		display: inline-block;
+
+		img, &.fit {
+			display: block;
+			width: 100%;
+		}
+
+		&.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+		&.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		&.centered {
+			display: block;
+			margin: 0 0 2em 0;
+
+			img {
+				margin: 0 auto;
+				width: auto;
+			}
+		}
+	}
+
+	.button {
+
+		display: inline-block;
+		padding: 0.75em 1.5em 0.75em 1.5em;
+		background: #000000;
+		text-decoration: none;
+		font-size: 1.10em;
+		font-weight: 700;
+		color: #ffffff !important;
+
+		&:hover {
+			background-color: #990000;
+		}
+
+		&:active {
+			background-color: #000000;
+		}
+
+		&.alt {
+			background: #232425;
+			color: #FFFFFF;
+
+			&:hover {
+				background-color: #990000;
+			}
+
+			&:active {
+				background-color: #000000;
+			}
+		}
+	}
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 _size(element-margin) 0;
+		padding-left: 1.25em;
+
+		li {
+			padding-left: 0.25em;
+		}
+	}
+
+	ul {
+		list-style: disc;
+		margin: 0 0 _size(element-margin) 0;
+		padding-left: 1em;
+
+		li {
+			padding-left: 0.5em;
+		}
+
+		&.alt {
+			list-style: none;
+			padding-left: 0;
+
+			li {
+				border-top: solid 1px;
+				padding: 0.5em 0;
+
+				&:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+			}
+		}
+			
+/* Icons --Incomplete--*/
+
+	.icon {
+		text-decoration: none;
+
+		&:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		> .label {
+			display: none;
+		}
+	}
+	}

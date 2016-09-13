@@ -1,0 +1,113 @@
+@import url("http://fonts.googleapis.com/css?family=Syncopate|Tinos");
+@import url("font-awesome.min.css");
+/* Basic */
+body, input, textarea, select {
+  font-family: 'Tinos', serif;
+  font-weight: 400;
+  background: #ffffff;
+  color: #000000; }
+
+form input, form select, form textarea {
+  -webkit-appearance: none; }
+
+br.clear {
+  clear: both; }
+
+h2 {
+  font-weight: 600; }
+
+p, ul, ol, dl, table {
+  margin-bottom: 1em; }
+
+p {
+  line-height: 1.75em; }
+
+strong {
+  font-weight: 700;
+  color: #4b0082; }
+
+section, article {
+  margin-bottom: 3em; }
+  section > :last-child, section:last-child, article > :last-child, article:last-child {
+    margin-bottom: 0; }
+
+footer {
+  padding-top: 1em; }
+
+.image {
+  display: inline-block; }
+  .image img, .image.fit {
+    display: block;
+    width: 100%; }
+  .image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0; }
+  .image.left {
+    float: left;
+    margin: 0 2em 2em 0; }
+  .image.centered {
+    display: block;
+    margin: 0 0 2em 0; }
+    .image.centered img {
+      margin: 0 auto;
+      width: auto; }
+
+.button {
+  display: inline-block;
+  padding: 0.75em 1.5em 0.75em 1.5em;
+  background: #000000;
+  text-decoration: none;
+  font-size: 1.10em;
+  font-weight: 700;
+  color: #ffffff !important; }
+  .button:hover {
+    background-color: #990000; }
+  .button:active {
+    background-color: #000000; }
+  .button.alt {
+    background: #232425;
+    color: #FFFFFF; }
+    .button.alt:hover {
+      background-color: #990000; }
+    .button.alt:active {
+      background-color: #000000; }
+
+/* List */
+ol {
+  list-style: decimal;
+  margin: 0 0 _size(element-margin) 0;
+  padding-left: 1.25em; }
+  ol li {
+    padding-left: 0.25em; }
+
+ul {
+  list-style: disc;
+  margin: 0 0 _size(element-margin) 0;
+  padding-left: 1em;
+  /* Icons --Incomplete--*/ }
+  ul li {
+    padding-left: 0.5em; }
+  ul.alt {
+    list-style: none;
+    padding-left: 0; }
+    ul.alt li {
+      border-top: solid 1px;
+      padding: 0.5em 0; }
+      ul.alt li:first-child {
+        border-top: 0;
+        padding-top: 0; }
+  ul .icon {
+    text-decoration: none; }
+    ul .icon:before {
+      display: inline-block;
+      font-family: FontAwesome;
+      font-size: 1.25em;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    ul .icon > .label {
+      display: none; }

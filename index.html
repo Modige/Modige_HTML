@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Modige is a project for GWDA 263. Built on http://www.getskeleton.com-->
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Modige Co.</title>
+  <meta name="description" content="Modige Co. is a small business, veteran-owned and operated, providing new media services for public relations, customer outreach, employee communications, corporate communications, branding and graphics, web design, and social media.">
+  
+<!-- On-Site SEO
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="author" content="Cecilie Korst">
+  <meta name="keywords" content="new media, digital media, public relations, customer outreach, employee communications, corporate communications, branding, graphics, web design, social media" />
+  <meta name="copyright" content="Modige Co."/>
+  <meta name="language" content="EN"/>
+  <meta name="robots" content="index,follow"/>
+  <meta name="revised" content="Sunday, September 11, 2016, 5:15 pm"/>
+
+<!-- Requirements
+–––––––––––––––––––––––––––––––––––––––––––––––––– --
+Yes  Responsive design
+Yes  WAI-ARIA compliance (tested at https://fae.disability.illinois.edu)
+Meh  Fully-functioning form (yes, it functions fully, but tested the Google API on it and I'm close, but not quite there)
+Yes  SEO techniques
+Yes  Any JS or CSS library (NOT jQuery!)
+Yes  Framework (like Skeleton or Bootstrap)
+Yes  SASS (extra credit)
+Nope ES6 (extra credit)
+
+
+<!-- If we were on social media, we would add these tags:
+–––––––––––––––––––––––––––––––––––––––––––––––––– --
+  		<!--Open Graph Meta Tags--
+        <meta property="og:title" content="Modige Co.">
+        <meta property="og:url" content="http://modige.com">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Modige Co. is a small business, veteran-owned and operated, providing new media services for public relations, customer outreach, employee communications, corporate communications, branding and graphics, web design, and social media.">
+        <meta property="og:image" content="http://modige.com/images/og_img.jpg">
+        
+        <!--Twitter Cards--
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Modige Co. is a small business, veteran-owned and operated, providing new media services for public relations, customer outreach, employee communications, corporate communications, branding and graphics, web design, and social media.">
+        <meta name="twitter:url" content="http://modige.com">
+        <meta name="twitter:image" content="http://modige.com/images/og_img.jpg">
+        
+        <meta itemprop="name" content="Modige Co."
+        <meta itemprop="description" content="Modige Co. is a small business, veteran-owned and operated, providing new media services for public relations, customer outreach, employee communications, corporate communications, branding and graphics, web design, and social media.">
+        <meta itemprop="image" content="http://modige.com/images/og_img.jpg">
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Syncopate|Tinos" rel="stylesheet">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+
+<!--Google API needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+GA script would go here.
+
+<!--Google API needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+<style>
+      #locationField, #controls {
+        position: relative;
+        width: 480px;
+      }
+      #autocomplete {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 99%;
+      }
+      .label {
+        text-align: right;
+        font-weight: bold;
+        width: 100px;
+        color: #303030;
+      }
+      #address {
+        border: 1px solid #000090;
+        background-color: #f0f0ff;
+        width: 480px;
+        padding-right: 2px;
+      }
+      #address td {
+        font-size: 10pt;
+      }
+      .field {
+        width: 99%;
+      }
+      .slimField {
+        width: 80px;
+      }
+      .wideField {
+        width: 200px;
+      }
+      #locationField {
+        height: 20px;
+        margin-bottom: 2px;
+      }
+    </style>-->
+</head>
+<body>
+
+  <!-- The Page!
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+  	<div class="row">
+
+      <div class="twelve columns" style="margin-top: 15%">
+      	<div role="banner" class="logo" alt="This is a picture of an origami crane. It changes colors depending on screen sizes.">
+
+
+      <!--<img src="images/logo.png">-->
+      	<h1 class="title"><a href="index.html">Modige</a></h1>
+      	
+      	<h5><strong><em>(moo-dee) Danish for  brave: <br> 1. posessing or exhibiting courage or courageous endurance. <br>2. making a fine appearance. <br>3. excellent, fine, admirable.</em></strong></h5>
+			<h3>pr | branding | web design | social | digital testbed</h3>
+			<hr />
+		</div>
+      </div>
+    </div>
+
+    
+
+    <div role="main" class="row">
+      <div class="four columns" style="margin-top: 5%">
+        <h4>About <br>Modige Co.</h4>
+        <p>Modige Co. is a small business, veteran-owned and operated, located in Los Angeles, California. We have experience in old school and new media for public relations, customer outreach, employee communications, corporate communications, branding and graphics, web design, and social media. Modige serves individuals, small businesses, corporations and causes in all fields.</p>
+
+		<p>At Modige Co., we are practitioners of new media strategy. We don't take on a client without a complete analysis of their current online presence, understanding the audience, the competition, the environment and the company. This baseline report is serious business. It defines the as-is, the starting line. From there, we understand your goals and map out a route to getting there through the vast forest of media options available.</p>
+
+		<p>We serve as a testbed for websites, social media posts and perform on-site SEO assessment. We keep abreast of algorithm changes and test on all major browsers, on Apple and PC platforms, all screen sizes and mobile devices.</p>
+      </div>
+    
+      <div class="four columns" style="margin-top: 5%">
+        <h4>Five <br>Core Principles</h4>
+        <ul class="icons">
+        	<li><strong>Design is Important:</strong> We know design and we are sticklers for good design. Elegant. Simple. Unique. Complete.</p>
+			<li><strong>Testing is Essential:</strong> Testing for design flexibility is absolutely essential to ensure that your website, post or graphic fits every screen size on which it will be viewed.</li>
+			<li><strong>The Medium is the Message:</strong> Your PR campaign is different depending on the channels on which it is running. We customize your message and craft your story according to channel (Facebook, Twitter, radio, TV, YouTube, podcast...) and optimize it for your desired audience.</li>
+			<li><strong>Content Strategy is King:</strong> Your digital media content should be strategically planned from the ground up. We are thought-leaders in strategy.</li>
+			<li><strong>Measurement is Key:</strong> We take analytics seriously. They tell us what the customer likes, how they find you and how long they look at your content. Data collection isn't enough. Analysis is the key to unlocking the postential of an evolving brand, company or product. The numbers tell us one thing. The meaning behind the numbers tells us so much more.</li>
+		</ul>
+      </div>
+    
+      <div class="four columns" style="margin-top: 5%">
+        <h4>Our Concentration <br>is Your Business</h4>
+        <p>We don't have a slick website or a social media campaign of our own because we are busy working for our clients. If this business model seems counter-intuitive, it is not. Wouldn't you rather have a company working for you who concentrates more on your needs than on getting new clients? That's what we are all about. You.</p>
+
+		<p>Modige Co. is a concentration of the finest minds in digital public relations, communications, SEO, web design, and graphics. We couple our technological knowledge with human psychology to understand audiences of all types. Our research and knowledge of the human mind set us apart in the digital PR world. We understand what your audience needs, wants and desires. That is how we help your clients find you and help you expand your audience and help more people.</p>
+
+		<p><strong><em>After all, isn't that the point?<em></strong></p>
+      </div>
+    </div>
+ 
+ 	<hr>
+    <div role="form">
+    <div class="row">
+   <h4>Want to talk? Give us some info.</h4>
+    
+        <!--form-->
+     	<form method="POST" action="send.php">
+  			<div role="form" class="row">
+    			<div class="six columns">
+      				<label for="name">your name*</label>
+      				<input class="u-full-width text" type="text" placeholder="First Last" id="name" name="name" value=""/>
+      				
+                    <label for="email">your email*</label>
+      				<input class="u-full-width email" type="email" placeholder="me@mailbox.com" id="email" name="email" value=""/>
+    			</div>
+
+    			<div class="six columns">
+                	<label for="email">subject*</label>
+      				<input class="u-full-width text" type="text" placeholder="Subject" id="subject" name="subject" value=""/>
+    				
+      				<label for="message">message*</label>
+  					<textarea class="u-full-width message" placeholder="Hiya!" id="message" name="message" value=""></textarea>
+  			
+  					<input class="button-primary" type="submit" name="submit" value="Send">
+    			</div>
+  			</div>
+  			
+		</form>
+        <div style="clear: both;"></div>
+        </div>
+</div>
+<!-- Alternate forms and actions --
+
+<div role="form" class="row">
+<div id="contact-area">
+			
+			<form method="post" action="send.php">
+				<label for="Name">Name:</label>
+				<input class="text" type="text" id="name" name="name" value="" />
+				
+				<label for="Tel">Telephone:</label>
+				<input class="text" type="text" id="tel" name="tel" value="" />
+	
+				<label for="Email">Email:</label>
+				<input class="text" type="text" id="email" name="email" value="" />
+                
+                <label for="Address">Street Address:</label>
+				<input class="text" type="text" id="address" name="address" value="" />
+                
+                <label for="Zip">City, State, Zip:</label>
+				<input class="text" type="number" id="zip" name="zip" value="" />
+    
+    <!--GOOGLE LOCATION THINGY--            
+     <div id="locationField">
+      <input id="autocomplete" placeholder="Enter your address"
+             onFocus="geolocate()" type="text"></input>
+    </div>
+
+    <table id="address">
+      <tr>
+        <td class="label">Street address</td>
+        <td class="slimField"><input class="field" id="street_number"
+              disabled="true"></input></td>
+        <td class="wideField" colspan="2"><input class="field" id="route"
+              disabled="true"></input></td>
+      </tr>
+      <tr>
+        <td class="label">City</td>
+        <td class="wideField" colspan="3"><input class="field" id="locality"
+              disabled="true"></input></td>
+      </tr>
+      <tr>
+        <td class="label">State</td>
+        <td class="slimField"><input class="field"
+              id="administrative_area_level_1" disabled="true"></input></td>
+        <td class="label">Zip code</td>
+        <td class="wideField"><input class="field" id="postal_code"
+              disabled="true"></input></td>
+      </tr>
+      <tr>
+        <td class="label">Country</td>
+        <td class="wideField" colspan="3"><input class="field"
+              id="country" disabled="true"></input></td>
+      </tr>
+    </table>
+				
+				<label for="Message">Message:</label><br />
+				<textarea class="text" id="message" name="message"></textarea>
+
+				<input type="submit" name="submit" value="Send" class="submit-button" />
+			</form>
+			
+			<div style="clear: both;"></div>
+</div>
+</div>    -->     
+   
+<hr>
+  <div role="contentinfo" class="row">
+      <div class="twelve columns" style="margin-top: 5%">
+      <p>&copy; Copyright 2016 by Modige Co. All Rights Reserved. We mean it.</p>
+      </div>
+  </div>  
+  </div>
+    
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.rotatorrr.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--<script src="assets/js/google-zip.js"></script>-->
+
+        
+  <script> 
+  window.console&&window.console.info("We caught you looking at our code. We're not hiring, but Chapelure Media is. Check them out at http://www.chapeluremedia.com/");
+  </script>
+</body>
+</html>
